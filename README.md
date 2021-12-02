@@ -11,7 +11,9 @@ The purpose of the project is to allow users to filter for multiple criteria in 
  - Software: HTML/CSS, JavaScript, Visual Studio Code 1.62.3, Bootstrap 4.0.0
 
 ## Results
+The user is able to type in the suggested placeholders within the filter input box.  It is imperative with the current design that the input criteria match exactly with the data in the JavaScript file.
 
+### Search Examples
 To perform a search by date, enter the desired date in required format, m/d/yyyy, and hit tab.
 ![date_filter](static/images/date_filter.png)
 
@@ -35,7 +37,7 @@ The user can also click on the UFO sightings text in the top navigation bar at a
 
 ## Summary
  - One major drawback of the page design is that the user must know the exact criteria to search for.  For example, it is not intuitive for a user to select "light" as a shape.  In addition, the user can spend a lot of time inputting random dates until something appears or a city contained in the data.
- 
+
  - Recommendations for future development would include:
     - Implementing dynamic dropdown lists of filter values to replace the necessity of the user typing the criteria exactly as it is found in the data.
     - For the date filter, consider a calendar pop up that highlights selectable dates that have data attached to them.
