@@ -30,9 +30,12 @@ To perform a search by shape, input the shape name in lower case and hit tab.
 To perform a multi criteria search, just input any combination of the above fields, hitting tab after the last field.
 ![multi_filter](static/images/multi_filter.png)
 
-The user can also click on the UFO sightings text in the top navigation bar at any time to return to the index page.
+The user can also click on the UFO sightings text in the top navigation bar at any time to re-initialize the page.
 ![index](static/images/index.png)
 
 ## Summary
- - address one drawback of this webpage
- - address two additional recommendations for further development
+ - One major drawback of the page design is that the user must know the exact criteria to search for.  For example, it is not intuitive for a user to select "light" as a shape.  In addition, the user can spend a lot of time inputting random dates until something appears or a city contained in the data.
+ - Recommendations for future development would include:
+  - Implementing dynamic dropdown lists of filter values to replace the necessity of the user typing the criteria exactly as it is found in the data.
+  - For the date filter, consider a calendar pop up that highlights selectable dates that have data attached to them.
+  - A more intuitive way to clear all the fields to get back to the beginning such as a Clear Filters button at the end of the form.  It may not be clear to users to click the top navigation bar to re-initialize the page.
